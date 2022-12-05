@@ -1,0 +1,184 @@
+body
+{
+    background-color: rgb(124, 124, 212);
+}
+.container1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid salmon;
+    width: 12cm;
+    height: 4cm;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    position: relative;
+    left: 12cm;
+    box-shadow: 5px 5px  purple;
+}
+.border{
+    border: 6px solid salmon;
+    height: 21cm;
+}
+.container2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 12px solid salmon;
+    height: 6cm;
+    width: 5cm;
+    text-align: center;
+    position: relative;
+    left: 1cm;
+    top: 1cm;
+    border-radius: 12px;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px  purple;
+    font-size: larger;
+    
+}
+.container3
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    border: 12px solid salmon;
+   height: 6cm;
+   width: 5cm;
+ background-color: antiquewhite;
+ border-radius: 12px;
+ position: relative;
+ left: 28cm;
+ bottom: 6cm;
+ box-shadow: 5px 5px  purple;
+ place-items: center;
+}
+.container3
+{
+    background-color: aliceblue;
+}
+.container4
+{
+    box-shadow: 5px 5px purple;
+    display: flex;
+    flex-direction: row;
+    border-radius: 9px;
+    width: 414px;
+    position: fixed;
+    top: 534px;
+    left: 502px;
+    background-color: antiquewhite;
+    border: 3px solid salmon;
+    height: 87px;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 40;
+}
+
+
+.container5
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 12px solid salmon;
+    box-shadow: 5px 5px  purple;
+    height: 6cm;
+    width: 5cm;
+    border-radius: 12px;
+    background-color: antiquewhite;
+    font-size: larger;
+    position: relative;
+    top: -9cm;
+    left: 1cm;
+}
+.container6
+{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    border: 12px solid salmon;
+    height: 6cm;
+    width: 5cm;
+    border-radius: 12px;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px  purple;
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    left: 28cm;
+    bottom: 15cm;
+    
+}
+.placeholder
+{
+    text-align: center;
+}
+.button
+{
+    background-color: blueviolet;
+    border-radius: 42%;
+}
+h1
+{
+    color: crimson;
+    text-align: center;
+    position: relative;
+    bottom: 284px;
+}
+.b2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid crimson;
+    width: 18cm;
+    height: 18cm;
+    position: relative;
+    left: 10cm;
+    bottom: 300px;
+    background-color: black
+}
+h2
+{
+    text-align: center;
+    color: cornflowerblue;
+}
+.fruit
+{
+    border: 1px solid rgb(56, 199, 140);
+    height: 7cm;
+    width: 335px;
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(56, 199, 140);
+    position: absolute;
+    bottom: 300px;
+   right: 340px;  
+}
+.vagetable
+{
+    border: 1px solid rgb(56, 199, 140);
+    height: 7cm;
+    width: 332px;
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(56, 199, 140);
+    position: absolute;
+    left: 342px;
+    top: 3cm;
+}
+.other
+{
+    
+    border: 1px solid rgb(56, 199, 140);
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(56, 199, 140);
+    position: absolute;
+    width: 669px;
+    top: 400px;
+    height: 269px;
+}
